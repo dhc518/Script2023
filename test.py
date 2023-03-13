@@ -8,7 +8,7 @@
 # print('World')
 # print('cats', 'dogs', 'mice', sep=', ')
 
-############local & global 참조################
+############local & global 참조(scope에 대해서)################
 # def spam():
 #     #global eggs
 #     print(eggs)
@@ -81,3 +81,127 @@
 # zipped = zip(names, ages, heights) #배열 요소들을 차례로 집합
 # print(list(zipped))
 # print(list(zipped)) #한번 사용하면 소진됨.
+
+# ##############List##############
+# #Shift+Alt+E
+# num = '0123456789ABCDEF'
+# num[::-1]
+# mun = '0123456789ABCDEF'[::-1]
+#
+# spam = [['cat', 'bat'], [10,20,30,40,50]]
+# spam[1][3]
+# black_pink = ['jisu', 'jeni', 'rose', 'risa']
+#
+# black_pink[-2]
+# len(black_pink)
+# black_pink[0] = 'daehyun'
+# black_pink.append('jyp')
+# black_pink += ['YB']
+# black_pink.remove('jyp')
+# black_pink
+# del black_pink[0]
+# black_pink.insert(2, 'IU')
+# # 가장 쉬운 방법
+# for member in black_pink:
+#     print(member)
+# # C 스러운 방법
+# for i in range(len(black_pink)):
+#     print(i,black_pink[i])
+# #enumerate 사용
+# for i, member in enumerate(black_pink):
+#     print(i, member)
+# #멤버가 있는 지 판별?
+# 'YB' not in black_pink
+# black_pink.index('YB')
+#
+# #######sort#######
+# spam = [2,5,3,14,1,-7]
+# spam.sort(reverse=True)
+# spam
+#
+# #######도플갱어와 복제인간###########
+# data = ['A','B','C','D']
+# new_data = data #도플갱어
+# new_data is data
+# id(new_data) == id(data)
+# new_data[0] = 'X'
+# data
+# new_data = data.copy() #복제
+# new_data == data
+#
+# ##############List Comorehension################
+# value = [i for i in range(10)]
+# value
+# odd_values = [n for n in range(20) if n % 2 == 1]
+# odd_values
+# [(x,y) for x in [1,2,3,] for y in ['a','b','c']]
+# vec = [[1,2,3],[4,5,6],[7,8,9]]
+# [num for elem in vec for num in elem]
+# import random
+# values = [random.randint(0,5) for i in range(20)]
+# values
+# [v if v != 0 else 'zero' for v in values]
+#
+# ###########Tuple############
+# t1 = (3,2,3)
+# type(t1)
+# t1[0]=2 #튜플은 값 변경 불가능, 변경 만 가능
+# t2 = (100,)
+# type(t2)
+# t3 = (100)
+# type(t3)
+# t4 = ()
+# type(t4)
+# t5 = (2,3,4,5)
+# t6 = (5,6,7,8)
+# t5 + t6
+
+##############가변 개수 사용 방법#################
+# def add(*values): #앞에 *붙이면 인자를 튜플로 인식
+#     result = 0
+#     for v in values:
+#         result += v
+#     return result #sum(values)
+#
+# add(1,2,3,add(16546,134,3654651))
+###################과제03########################
+# def merge(*values):
+#     sentence = ''
+#     for word in values:
+#         if values[0] == values[-1]:
+#             sentence = word
+#         elif word == values[-1]:
+#             sentence= sentence + 'and ' + word
+#         else:
+#             sentence = sentence + word + ', '
+#
+#     return sentence
+#
+# final = merge('orange', 'apple', 'mango', 'banana', 'peanut')
+# print(final)
+#
+# final = merge('orange')
+# print(final)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
