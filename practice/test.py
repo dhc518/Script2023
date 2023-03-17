@@ -118,7 +118,7 @@
 # spam = [2,5,3,14,1,-7]
 # spam.sort(reverse=True)
 # spam
-#
+
 # #######도플갱어와 복제인간###########
 # data = ['A','B','C','D']
 # new_data = data #도플갱어
@@ -128,7 +128,7 @@
 # data
 # new_data = data.copy() #복제
 # new_data == data
-#
+
 # ##############List Comorehension################
 # value = [i for i in range(10)]
 # value
@@ -141,7 +141,8 @@
 # values = [random.randint(0,5) for i in range(20)]
 # values
 # [v if v != 0 else 'zero' for v in values]
-#
+
+
 # ###########Tuple############
 # t1 = (3,2,3)
 # type(t1)
@@ -164,6 +165,8 @@
 #     return result #sum(values)
 #
 # add(1,2,3,add(16546,134,3654651))
+
+
 ###################과제03########################
 # def merge(*values):
 #     sentence = ''
@@ -171,17 +174,35 @@
 #         if values[0] == values[-1]:
 #             sentence = word
 #         elif word == values[-1]:
-#             sentence= sentence + 'and ' + word
+#             sentence = sentence + 'and ' + word
 #         else:
 #             sentence = sentence + word + ', '
 #
 #     return sentence
+
+# def merge(*values):
+#     result = ''
+#     for word in values[:-1]:
+#         result += word + ', '
+#
+#     result += (' and ' if result else '') + values[-1]
+#
+#     return result
+#
+# def merge(*values):
+#     result = ', '.join(values[:-1])
+#     result += (' and ' if result else '') + values[-1]
+#     return result
 #
 # final = merge('orange', 'apple', 'mango', 'banana', 'peanut')
 # print(final)
-#
+# final = merge('orange', 'peanut')
+# print(final)
 # final = merge('orange')
 # print(final)
+
+
+
 
 
 
