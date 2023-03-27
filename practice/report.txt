@@ -1,0 +1,16 @@
+5764888        python311.dll
+1474217        NEWS.txt
+109392        vcruntime140.dll
+103192        python.exe
+101656        pythonw.exe
+67352        python3.dll
+49488        vcruntime140_1.dll
+40960        Lib
+32768        LICENSE.txt
+12288        include
+8192        DLLs
+4096        tcl
+0        Doc
+0        libs
+0        Scripts
+0        Tools
