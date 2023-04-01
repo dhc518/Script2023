@@ -1,19 +1,17 @@
 import os
-print(os.getcwd())
-# for fn in os.listdir():
-#     print(f'{os.path.dirname(fn)} {os.path.getsize(fn)}')
 
-# for root, subfolders, filenames in os.walk('d:/python'):
-#     print(f'ROOT:{root}'.center(80,'='))
-#     print('Subfolders: '.ljust(15), subfolders)
-#     print('Files: '.ljust(15), filenames)
-#     print('\n')
+# 작업 디렉토리에서 모든 파일과 디렉토리의 경로를 가져옵니다.
+file_sizes = []
+for root, dirs, files in os.walk("E:\Program Files (x86)\Python311"):
+    for filename in files:
+        filepath = os.path.join(root, filename)
+        file_size = os.path.getsize(filepath)
+        file_sizes.append((file_size, filepath))
 
-files = [((name, os.path.getsize(os.path.join(root, name))) for name in filenames) for root, filenames in os.listdir('d:/python')]
+# 파일 크기순으로 정렬합니다.
+file_sizes.sort(reverse=True)
 
-files.sort(key=lambda s: s[1], reverse=True)
+# 결과를 report.txt 파일에 저장합니다.
 with open("report.txt", "w") as f:
-    for name, size in files:
-        f.write(f"{name} ({size} bytes)\n")
-
-
+    for size, path in file_sizes:
+        f.write(f"{size}    {path}\n")
