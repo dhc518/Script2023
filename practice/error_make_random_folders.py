@@ -26,7 +26,7 @@ def make_random_folders(count):
 
 
 report_home = 'w:/TestFolder'
-
+#report_home = 'c:/TestFolder'
 
 def make_random_root_folder():
     os.mkdir('root_folder')
@@ -34,8 +34,14 @@ def make_random_root_folder():
     make_random_folders(10)
     os.chdir('..')
 
+#os.mkdir(report_home)
+try:
+    os.chdir(report_home)
+except:
+    try:
+        os.mkdir(report_home)
+    except:
 
-os.chdir(report_home)
 make_random_root_folder()
 
 

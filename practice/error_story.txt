@@ -1,0 +1,8 @@
+  File "C:\Users\TIP209-22\Documents\GitHub\Script_2023\practice\buggy.py", line 15, in <module>
+    ham()
+  File "C:\Users\TIP209-22\Documents\GitHub\Script_2023\practice\buggy.py", line 13, in ham
+    spam()
+  File "C:\Users\TIP209-22\Documents\GitHub\Script_2023\practice\buggy.py", line 10, in spam
+    bacon()
+  File "C:\Users\TIP209-22\Documents\GitHub\Script_2023\practice\buggy.py", line 7, in bacon
+    for line in traceback.format_stack():
