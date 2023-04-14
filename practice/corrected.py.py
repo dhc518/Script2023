@@ -1,5 +1,10 @@
 import os
 import random
+import logging
+logging.basicConfig(
+    level=logging.DEBUG,
+    format='%(filename)s(%(lineno)d): %(levelname)s  - %(message)s'
+)
 
 
 folder_no = 0
@@ -25,12 +30,22 @@ def make_random_folders(count):
         count -= subcount
 
 
-report_home = 'd:/TestFolder'
+report_home = 'w:/TestFolder'
 
 
 def make_random_root_folder():
-    os.mkdir('root_folder')
+    try:
+        os.mkdir('root_folder')
+    except FileExistsError:
+        logging.critical(f'root folder already exists')
+        quit()
+    except:
+        logging.critical(f'unknown error')
+        quit()
+
+    assert os.path.exists('root_folder')
     os.chdir('root_folder')
+
     make_random_folders(10)
     os.chdir('..')
 
