@@ -1,4 +1,7 @@
 #import logging
+
+
+#from logging import  info as info, debug as debug
 import re
 from tkinter import *
 from tkinter.ttk import *
@@ -14,6 +17,8 @@ from tkinter.ttk import *
 # Checkbutton = CTkCheckBox
 # Radiobutton = CTkRadioButton
 
+def stop(event=None):
+    window.quit()
 
 window = Tk()
 window.title("My Tkinter App")
@@ -82,10 +87,6 @@ gender.trace_add('write', gender_updated)
 
 pattern_frame = LabelFrame(window, text='Patterm List')
 pattern_frame.pack(fill=X)
-pattern_var = StringVar()
-
-pattern_entry = Entry(pattern_frame)
-pattern_entry.pack()
 
 
 def search_pattern(pattern):
@@ -109,30 +110,49 @@ def search_pattern(pattern):
 
 # 새로운 패턴을 넣고, 엔터를 치면 정규식으로 검색을 합니다.
 def add_pattern(event=None):
-    pattern = pattern_entry.get()
-    pattern_list.insert(0,pattern)
+    pattern = combobox.get() # 콤보 박세에 입력한 새로운 문자열
+    combobox['values'] += (pattern,)
     search_pattern(pattern)
 
-pattern_entry.bind('<Return>', add_pattern)
-
-pattern_list = Listbox(pattern_frame, selectmode=SINGLE, height=4)
-pattern_list.insert(0,'Python')
-pattern_list.pack(fill=X, expand=True)
+combobox = Combobox(pattern_frame, height=5, values=['python', '\d+'])
+combobox.pack()
 
 def set_pattern(event=None):
-    # 리스트에서 현재 선택된 인덱스를 가져와야
-    index = pattern_list.curselection()[0]
-    # 리스트박스레 들어있는 요소 중에서 index 해당되는 요소
-    pattern = pattern_list.get(index)
-    # 엔트리의 텍스트로 설정
-    pattern_var.set(pattern)
+    pattern = combobox.get()
     # 검색까지도 진행
     search_pattern(pattern)
 
-pattern_list.bind('<<ListboxSelect>>', set_pattern)
+combobox.bind('<Return>', add_pattern)
+combobox.bind('<<ComboboxSelected>>', set_pattern)
 
-def stop(event=None):
-    window.quit()
+from tkinter import filedialog
+
+def open_file():
+    file_names = filedialog.askopenfilename(
+        title='Select Text File',
+        filetypes=(
+                    ('text files','*.txt'),
+                    ('All Files','*.*')
+        )
+    )
+    print(file_names)
+
+def save_file_as():
+    pass
+
+menu = Menu()
+
+menu_File = Menu(menu, tearoff=0)
+menu_File.add_command(label='Open', accelerator='Ctrl+o', command=open_file)
+menu_File.add_command(label='Save', accelerator='Ctrl+s', command=save_file_as())
+menu_File.add_separator()
+menu_File.add_command(label='Quit', accelerator='Ctrl+q', command=stop)
+menu.add_cascade(label='File', underline=0, menu=menu_File)
+
+window.bind_all('<Control-q>', stop)
+window.config(menu=menu)
+
+
 
 window.bind('<q>', stop)
 window.mainloop()
