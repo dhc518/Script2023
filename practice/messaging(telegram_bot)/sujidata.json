@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "result": [
+    {
+      "update_id": 562885289,
+      "message": {
+        "message_id": 4,
+        "from": {
+          "id": 6117047894,
+          "is_bot": false,
+          "first_name": "\ud601\ucc2c",
+          "last_name": "\ub450",
+          "language_code": "ko"
+        },
+        "chat": {
+          "id": 6117047894,
+          "first_name": "\ud601\ucc2c",
+          "last_name": "\ub450",
+          "type": "private"
+        },
+        "date": 1682934242,
+        "text": "\uc548\ub155"
+      }
+    }
+  ]
+}
