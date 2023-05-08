@@ -1,0 +1,377 @@
+C:\Users\dhc518\AppData\Local\Programs\Python\Python311\python.exe E:\github\Script_2023\lesson\messaging\telegram_read.py
+{
+    "update_id": 562885372,
+    "message": {
+        "message_id": 84,
+        "from": {
+            "id": 6039853585,
+            "is_bot": false,
+            "first_name": "eom",
+            "last_name": "jangheon",
+            "username": "jangheon"
+        },
+        "chat": {
+            "id": -915250754,
+            "title": "2023 Script Room #1",
+            "type": "group",
+            "all_members_are_administrators": true
+        },
+        "date": 1683540882,
+        "document": {
+            "file_name": "dog.jpg",
+            "mime_type": "image/jpeg",
+            "thumbnail": {
+                "file_id": "AAMCBQADGQEAA1RkWMuSy1Q0UMdbtXha4D4JNpC2kAACrQkAAizryVY6pXeupuUlBwEAB20AAy8E",
+                "file_unique_id": "AQADrQkAAizryVZy",
+                "file_size": 5730,
+                "width": 275,
+                "height": 183
+            },
+            "thumb": {
+                "file_id": "AAMCBQADGQEAA1RkWMuSy1Q0UMdbtXha4D4JNpC2kAACrQkAAizryVY6pXeupuUlBwEAB20AAy8E",
+                "file_unique_id": "AQADrQkAAizryVZy",
+                "file_size": 5730,
+                "width": 275,
+                "height": 183
+            },
+            "file_id": "BQACAgUAAxkBAANUZFjLkstUNFDHW7V4WuA-CTaQtpAAAq0JAAIs68lWOqV3rqblJQcvBA",
+            "file_unique_id": "AgADrQkAAizryVY",
+            "file_size": 4599
+        }
+    }
+}
+{
+    "update_id": 562885373,
+    "message": {
+        "message_id": 85,
+        "from": {
+            "id": 5358729350,
+            "is_bot": false,
+            "first_name": "대현",
+            "last_name": "이",
+            "username": "Tennismaster70"
+        },
+        "chat": {
+            "id": -915250754,
+            "title": "2023 Script Room #1",
+            "type": "group",
+            "all_members_are_administrators": true
+        },
+        "date": 1683540883,
+        "document": {
+            "file_name": "kitty.png",
+            "mime_type": "image/png",
+            "thumbnail": {
+                "file_id": "AAMCBQADGQEAA1VkWMuTQiWrVx1ir9cngXgUhf2bzwACrgkAAizryVZ4L34KyP80KQEAB20AAy8E",
+                "file_unique_id": "AQADrgkAAizryVZy",
+                "file_size": 17973,
+                "width": 320,
+                "height": 272
+            },
+            "thumb": {
+                "file_id": "AAMCBQADGQEAA1VkWMuTQiWrVx1ir9cngXgUhf2bzwACrgkAAizryVZ4L34KyP80KQEAB20AAy8E",
+                "file_unique_id": "AQADrgkAAizryVZy",
+                "file_size": 17973,
+                "width": 320,
+                "height": 272
+            },
+            "file_id": "BQACAgUAAxkBAANVZFjLk0Ilq1cdYq_XJ4F4FIX9m88AAq4JAAIs68lWeC9-Csj_NCkvBA",
+            "file_unique_id": "AgADrgkAAizryVY",
+            "file_size": 86894
+        }
+    }
+}
+{
+    "update_id": 562885374,
+    "message": {
+        "message_id": 86,
+        "from": {
+            "id": 5994983520,
+            "is_bot": false,
+            "first_name": "민한",
+            "last_name": "김"
+        },
+        "chat": {
+            "id": -915250754,
+            "title": "2023 Script Room #1",
+            "type": "group",
+            "all_members_are_administrators": true
+        },
+        "date": 1683540887,
+        "photo": [
+            {
+                "file_id": "AgACAgUAAxkBAANWZFjLl0koHt-3qI9YR8JmtfYuaBwAAm20MRss68lWWjr-IQvG-A8BAAMCAANzAAMvBA",
+                "file_unique_id": "AQADbbQxGyzryVZ4",
+                "file_size": 1847,
+                "width": 79,
+                "height": 90
+            },
+            {
+                "file_id": "AgACAgUAAxkBAANWZFjLl0koHt-3qI9YR8JmtfYuaBwAAm20MRss68lWWjr-IQvG-A8BAAMCAANtAAMvBA",
+                "file_unique_id": "AQADbbQxGyzryVZy",
+                "file_size": 10288,
+                "width": 217,
+                "height": 247
+            }
+        ]
+    }
+}
+{
+    "update_id": 562885375,
+    "message": {
+        "message_id": 87,
+        "from": {
+            "id": 6036203928,
+            "is_bot": false,
+            "first_name": "민혁",
+            "last_name": "안",
+            "username": "minhyeokAN"
+        },
+        "chat": {
+            "id": -915250754,
+            "title": "2023 Script Room #1",
+            "type": "group",
+            "all_members_are_administrators": true
+        },
+        "date": 1683540901,
+        "photo": [
+            {
+                "file_id": "AgACAgUAAxkBAANXZFjLpeK9-XS0pnUqGkUgdb2enzAAAm60MRss68lWOk3l32mq_lwBAAMCAANzAAMvBA",
+                "file_unique_id": "AQADbrQxGyzryVZ4",
+                "file_size": 1067,
+                "width": 90,
+                "height": 90
+            },
+            {
+                "file_id": "AgACAgUAAxkBAANXZFjLpeK9-XS0pnUqGkUgdb2enzAAAm60MRss68lWOk3l32mq_lwBAAMCAANtAAMvBA",
+                "file_unique_id": "AQADbrQxGyzryVZy",
+                "file_size": 8765,
+                "width": 320,
+                "height": 320
+            },
+            {
+                "file_id": "AgACAgUAAxkBAANXZFjLpeK9-XS0pnUqGkUgdb2enzAAAm60MRss68lWOk3l32mq_lwBAAMCAAN4AAMvBA",
+                "file_unique_id": "AQADbrQxGyzryVZ9",
+                "file_size": 30819,
+                "width": 800,
+                "height": 800
+            },
+            {
+                "file_id": "AgACAgUAAxkBAANXZFjLpeK9-XS0pnUqGkUgdb2enzAAAm60MRss68lWOk3l32mq_lwBAAMCAAN5AAMvBA",
+                "file_unique_id": "AQADbrQxGyzryVZ-",
+                "file_size": 42497,
+                "width": 1080,
+                "height": 1080
+            }
+        ]
+    }
+}
+{
+    "update_id": 562885376,
+    "message": {
+        "message_id": 88,
+        "from": {
+            "id": 5733988175,
+            "is_bot": false,
+            "first_name": "Lee",
+            "last_name": "SiYeung",
+            "username": "ZeroStoneBoy"
+        },
+        "chat": {
+            "id": -915250754,
+            "title": "2023 Script Room #1",
+            "type": "group",
+            "all_members_are_administrators": true
+        },
+        "date": 1683540903,
+        "photo": [
+            {
+                "file_id": "AgACAgUAAxkBAANYZFjLp-TcSrZaZEbvv2tzYwgImVQAAm-0MRss68lW3wKaFt44fUoBAAMCAANzAAMvBA",
+                "file_unique_id": "AQADb7QxGyzryVZ4",
+                "file_size": 1095,
+                "width": 60,
+                "height": 90
+            },
+            {
+                "file_id": "AgACAgUAAxkBAANYZFjLp-TcSrZaZEbvv2tzYwgImVQAAm-0MRss68lW3wKaFt44fUoBAAMCAANtAAMvBA",
+                "file_unique_id": "AQADb7QxGyzryVZy",
+                "file_size": 20148,
+                "width": 213,
+                "height": 320
+            },
+            {
+                "file_id": "AgACAgUAAxkBAANYZFjLp-TcSrZaZEbvv2tzYwgImVQAAm-0MRss68lW3wKaFt44fUoBAAMCAAN4AAMvBA",
+                "file_unique_id": "AQADb7QxGyzryVZ9",
+                "file_size": 98499,
+                "width": 533,
+                "height": 800
+            },
+            {
+                "file_id": "AgACAgUAAxkBAANYZFjLp-TcSrZaZEbvv2tzYwgImVQAAm-0MRss68lW3wKaFt44fUoBAAMCAAN5AAMvBA",
+                "file_unique_id": "AQADb7QxGyzryVZ-",
+                "file_size": 231673,
+                "width": 853,
+                "height": 1280
+            }
+        ]
+    }
+}
+{
+    "update_id": 562885377,
+    "message": {
+        "message_id": 89,
+        "from": {
+            "id": 6149745109,
+            "is_bot": false,
+            "first_name": "함승범",
+            "username": "BB497"
+        },
+        "chat": {
+            "id": -915250754,
+            "title": "2023 Script Room #1",
+            "type": "group",
+            "all_members_are_administrators": true
+        },
+        "date": 1683540916,
+        "document": {
+            "file_name": "123.jpg",
+            "mime_type": "image/jpeg",
+            "thumbnail": {
+                "file_id": "AAMCBQADGQEAA1lkWMu0HIULV1AhBNssLTalCPNbuwACsAkAAizryVb8XEkwPUdvvwEAB20AAy8E",
+                "file_unique_id": "AQADsAkAAizryVZy",
+                "file_size": 7798,
+                "width": 216,
+                "height": 233
+            },
+            "thumb": {
+                "file_id": "AAMCBQADGQEAA1lkWMu0HIULV1AhBNssLTalCPNbuwACsAkAAizryVb8XEkwPUdvvwEAB20AAy8E",
+                "file_unique_id": "AQADsAkAAizryVZy",
+                "file_size": 7798,
+                "width": 216,
+                "height": 233
+            },
+            "file_id": "BQACAgUAAxkBAANZZFjLtByFC1dQIQTbLC02pQjzW7sAArAJAAIs68lW_FxJMD1Hb78vBA",
+            "file_unique_id": "AgADsAkAAizryVY",
+            "file_size": 6076
+        }
+    }
+}
+{
+    "update_id": 562885378,
+    "message": {
+        "message_id": 90,
+        "from": {
+            "id": 6279130465,
+            "is_bot": false,
+            "first_name": "현수",
+            "last_name": "이",
+            "username": "dlatl1234"
+        },
+        "chat": {
+            "id": -915250754,
+            "title": "2023 Script Room #1",
+            "type": "group",
+            "all_members_are_administrators": true
+        },
+        "date": 1683540921,
+        "document": {
+            "file_name": "토끼.jpg",
+            "mime_type": "image/jpeg",
+            "thumbnail": {
+                "file_id": "AAMCBQADGQEAA1pkWMu5YSh8NQJhYS_c4TmcDQ0ZlgACsQkAAizryVb1elXIQKElywEAB20AAy8E",
+                "file_unique_id": "AQADsQkAAizryVZy",
+                "file_size": 1811,
+                "width": 85,
+                "height": 91
+            },
+            "thumb": {
+                "file_id": "AAMCBQADGQEAA1pkWMu5YSh8NQJhYS_c4TmcDQ0ZlgACsQkAAizryVb1elXIQKElywEAB20AAy8E",
+                "file_unique_id": "AQADsQkAAizryVZy",
+                "file_size": 1811,
+                "width": 85,
+                "height": 91
+            },
+            "file_id": "BQACAgUAAxkBAANaZFjLuWEofDUCYWEv3OE5nA0NGZYAArEJAAIs68lW9XpVyEChJcsvBA",
+            "file_unique_id": "AgADsQkAAizryVY",
+            "file_size": 1548
+        }
+    }
+}
+{
+    "update_id": 562885379,
+    "message": {
+        "message_id": 91,
+        "from": {
+            "id": 6117047894,
+            "is_bot": false,
+            "first_name": "&#54785;&#52268;",
+            "last_name": "&#46160;",
+            "username": "dhc518",
+            "language_code": "ko"
+        },
+        "chat": {
+            "id": -915250754,
+            "title": "2023 Script Room #1",
+            "type": "group",
+            "all_members_are_administrators": true
+        },
+        "date": 1683540965,
+        "document": {
+            "file_name": "dolphin.jpg",
+            "mime_type": "image/jpeg",
+            "thumbnail": {
+                "file_id": "AAMCBQADGQEAA1tkWMvlKpOHOSfMruscOXt98BqLVQACsgkAAizryVY0QcrxnsQWZAEAB20AAy8E",
+                "file_unique_id": "AQADsgkAAizryVZy",
+                "file_size": 18142,
+                "width": 320,
+                "height": 208
+            },
+            "thumb": {
+                "file_id": "AAMCBQADGQEAA1tkWMvlKpOHOSfMruscOXt98BqLVQACsgkAAizryVY0QcrxnsQWZAEAB20AAy8E",
+                "file_unique_id": "AQADsgkAAizryVZy",
+                "file_size": 18142,
+                "width": 320,
+                "height": 208
+            },
+            "file_id": "BQACAgUAAxkBAANbZFjL5SqThzknzK7rHDl7ffAai1UAArIJAAIs68lWNEHK8Z7EFmQvBA",
+            "file_unique_id": "AgADsgkAAizryVY",
+            "file_size": 106182
+        }
+    }
+}
+{
+    "update_id": 562885380,
+    "message": {
+        "message_id": 92,
+        "from": {
+            "id": 1884760417,
+            "is_bot": false,
+            "first_name": "Sehyun",
+            "last_name": "Oh",
+            "username": "dhtpgus1414"
+        },
+        "chat": {
+            "id": -915250754,
+            "title": "2023 Script Room #1",
+            "type": "group",
+            "all_members_are_administrators": true
+        },
+        "date": 1683540971,
+        "photo": [
+            {
+                "file_id": "AgACAgUAAxkBAANcZFjL6vsbiup-PstCXEGMZByzxPIAAnC0MRss68lW7zbWXLxQw7sBAAMCAANzAAMvBA",
+                "file_unique_id": "AQADcLQxGyzryVZ4",
+                "file_size": 1188,
+                "width": 90,
+                "height": 67
+            },
+            {
+                "file_id": "AgACAgUAAxkBAANcZFjL6vsbiup-PstCXEGMZByzxPIAAnC0MRss68lW7zbWXLxQw7sBAAMCAANtAAMvBA",
+                "file_unique_id": "AQADcLQxGyzryVZy",
+                "file_size": 4988,
+                "width": 259,
+                "height": 194
+            }
+        ]
+    }
+}
