@@ -20,7 +20,11 @@ r = requests.get(url, params=params, headers=headers)
 r.raise_for_status()
 
 soup = BeautifulSoup(r.text, 'lxml')
-for i, e in enumerate(soup.find_all('h3')):
-    print(f'#{i}: {e.string}')
+# for i, e in enumerate(soup.find_all('h3')):
+#     print(f'#{i}: {e.string}')
 # with open('downloaded.html', 'w', encoding='utf-8') as wf:
 #     wf.write(r.text)
+
+elms = soup.select('#search a h3[class="LC20lb MBeuO DKV0Md"]')
+for e in elms:
+    print(e.get_text(), " : ", e.parent.get('href'))
